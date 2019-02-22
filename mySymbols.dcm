@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3
+D power-flag symbol +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +V_BUS
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +V_Tubes
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP ESDA25P35
+D TVS DIODE 3.3V 14.1V SOD523
+K ESD5Z3.3T1GOSCT-ND
+F http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF
+$ENDCMP
+#
+$CMP SQ3457EV-T1
+D 6.8A Id, -30V Vds, P-Channel MOSFET, TSOT-23-6
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66715/sq3457ev.pdf
+$ENDCMP
+#
+$CMP STUSB4500QTR
+D The STUSB4500 is a USB power delivery controller that addresses sink devices. It implements a proprietary algorithm to allow the negotiation of a power delivery contract with a source without MCU support (auto-run mode). PDO profiles are configured in an integrated non-volatile memory. The device supports dead battery mode and is suited for sink devices powered from dead battery state and requiring high power charging profile to be fully operational. Thanks to its 20 V technology, it implements high voltage features to protect the CC pins against short-circuits to VBUS up to 22 V and to support high voltage on the VBUS pins directly connected to the VBUS power path up to 28 V.
+K  Standalone USB PD sink controller with short-to-VBUS protections
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/1c/4a/55/d7/17/01/44/86/DM00489312/files/DM00489312.pdf/jcr:content/translations/en.DM00489312.pdf
+$ENDCMP
+#
+#End Doc Library
