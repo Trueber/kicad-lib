@@ -36,6 +36,12 @@ K ESD5Z3.3T1GOSCT-ND
 F http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF
 $ENDCMP
 #
+$CMP PJFET
+D P-JFET transistor, drain/gate/source
+K transistor PJFET P-JFET
+F ~
+$ENDCMP
+#
 $CMP SQ3457EV-T1
 D 6.8A Id, -30V Vds, P-Channel MOSFET, TSOT-23-6
 K P-Channel MOSFET
