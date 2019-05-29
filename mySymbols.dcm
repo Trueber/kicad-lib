@@ -10,6 +10,16 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +3.3V_copy
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_local
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
 $CMP +3V3
 D power-flag symbol +3.3V
 K Power Flag Symbol
@@ -30,10 +40,26 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP DMP3017SFG
+D Diodes Incorporated MOSFET BVDSS: 30V PowerDI3333-8
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP DMP4015SSS
+D Diodes Incorporated MOSFET BVDSS: 41V-60 1V-60V SO-8 T&R 2.5K
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP ESDA25P35
 D TVS DIODE 3.3V 14.1V SOD523
 K ESD5Z3.3T1GOSCT-ND
 F http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF
+$ENDCMP
+#
+$CMP MMBT2222AL
+D 40V Vce, 1A Ic, NPN, General Purpose Transistor, SOT-223
+K NPN General Puprose Transistor SMD
+F http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF
 $ENDCMP
 #
 $CMP PJFET
