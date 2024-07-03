@@ -6672,7 +6672,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" "1951-2692-ND"
-			(at 7.62 3.556 0)
+			(at 6.858 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,24 +6694,6 @@
 			)
 		)
 		(symbol "TSR_2-2450_1_1"
-			(pin passive line
-				(at 0 -6.35 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -7.62 1.27 0)
 				(length 2.54)
@@ -6722,7 +6704,25 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6740,7 +6740,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
